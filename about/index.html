@@ -102,9 +102,7 @@
                     
                         <li class=""><a href="javascript:;" class="search" target="_self"><span class="iconfont icon-search-menu"></span>搜索</a></li>
                     
-                        <li class=""><a href="/comment" class="" target="_self"><span class="iconfont icon-comments-fill"></span>留言板</a></li>
-                    
-                        <li class=""><a href="/friend" class="" target="_self"><span class="iconfont icon-link"></span>友情链接</a></li>
+                        <li class=""><a href="/friend" class="" target="_self"><span class="iconfont icon-link"></span>友链</a></li>
                     
                 </ul> 
             </div> 
@@ -441,16 +439,7 @@
                 },
             
                 {
-                    name   : "留言板",
-                    icon   : "icon-comments-fill",
-                    href   : "/comment",
-                    type   : "comment",
-                    class  : "",
-                    target : "_self"
-                },
-            
-                {
-                    name   : "友情链接",
+                    name   : "友链",
                     icon   : "icon-link",
                     href   : "/friend",
                     type   : "friend",
@@ -537,7 +526,7 @@
         }, 
 
         Comment : {
-            switch : true,
+            switch : false,
             type   : "Valine",
         },
 
